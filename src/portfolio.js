@@ -23,7 +23,7 @@ const greeting = {
   username: "Eman",
   title: "Welcome! I'm Eman",
   subTitle: emoji(
-    "I am a bioinformatician and public health advocate passionate about leveraging computational tools to prevent and mitigate disease. With expertise in data analytics, research, and policy, I am driven to advance precision public health. Explore my work in biomarkers, transcriptional pathways, and health initiatives, including my platform for precision public health."
+    "Connecting the dots between genomics and public health. Here's where data science meets disease prevention. Ready to make an impact? Let's chat!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/15_zuGa-lPBUDO5dWVathj8ZOqvsymaBl/view?usp=drive_link", // Set to empty to hide the button
