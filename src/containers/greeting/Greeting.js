@@ -8,6 +8,8 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import emanTeal from "../../assets/images/emanTeal.png";
+
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -53,14 +55,16 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
+            {/* {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
               <img
                 alt="man sitting on table"
                 src={require("../../assets/images/manOnTable.svg")}
               ></img>
-            )}
+            )} */
+            <img src={emanTeal}></img>
+            }
           </div>
         </div>
       </div>
