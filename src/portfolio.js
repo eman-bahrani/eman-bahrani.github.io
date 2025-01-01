@@ -127,15 +127,17 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Queen's University Belfast",
+      logo: require("./assets/images/queensLogo.png"),
+      subHeader: "Master of Science in Bioinformatics and Computational Genomics",
+      duration: "September 2023 - December 2024",
+      desc: "Graduated with distintion, elected Course Rep, and contributed to research in Dunne's Lab.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Utilised R packages and various open source databases to analyse clinical and gene expression data.",
+        "Conducted bioinformatics analysis as part of my master's thesis under the supervision of Dr Philip Dunne.",
+        "Collaborated with the research group to gain new molecular insights into polyps for the prognosis of colorectal cancer through big data analytics techniques."
       ]
+
     },
     {
       schoolName: "Stanford University",
