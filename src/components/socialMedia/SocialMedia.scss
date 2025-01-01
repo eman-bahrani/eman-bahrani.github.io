@@ -28,9 +28,9 @@
   transition: 0.2s ease-in;
 }
 
-.facebook i {
-  background-color: $faceBook;
-}
+// .facebook i {
+  // background-color: $faceBook;
+// }
 
 .linkedin i {
   background-color: $linkedin;
@@ -40,33 +40,33 @@
   background-color: $github;
 }
 
-.gitlab i {
-  background-color: $gitlab;
-}
+// .gitlab i {
+  // background-color: $gitlab;
+// }
 
 .google i {
-  background-color: $google;
+background-color: $google;
 }
 
 .twitter i {
   background-color: $twitter;
 }
 
-.medium i {
-  background-color: $medium;
-}
+// .medium i {
+  // background-color: $medium;
+// }
 
-.stack-overflow i {
-  background-color: $stackoverflow;
-}
+// .stack-overflow i {
+  // background-color: $stackoverflow;
+// }
 
-.kaggle i {
-  background-color: $kaggle;
-}
+// .kaggle i {
+  // background-color: $kaggle;
+// }
 
-.instagram i {
-  background-color: $instagram;
-}
+// .instagram i {
+  // background-color: $instagram;
+// }
 
 /* Hover Transition */
 .twitter i:hover,
