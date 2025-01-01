@@ -140,12 +140,14 @@ const educationInfo = {
 
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Qatar University",
+      logo: require("./assets/images/QULogo.png"),
+      subHeader: "Bachelor of Science (Hons) in Public Health conc. Health Management",
+      duration: "February 2016 - June 2019",
+      desc: "Graduated with Honours (GPA 3.89) on the Vice President's List of High Achievers.",
+      descBullets: ["Interned at the Cancer Screening Clinic at Leabaib PHCC.",
+        "Volunteer Public Health Program Evaluator.",
+        "Honours Student Advisor and Researcher"]
     }
   ]
 };
