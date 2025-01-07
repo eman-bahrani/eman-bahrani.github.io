@@ -165,35 +165,75 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Public Health Professional",
+      company: "Gulf CDC",
+      companylogo: require("./assets/images/gulfcdcLogo.png"),
+      date: "Oct 2024 – Present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Leading NCD public health programs and policies across GCC member states",
+        "Creating monitoring and evaluation frameworks with World Bank collaboration",
+        "Managing Health Promotion PCN for data-driven public health initiatives"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Master's Student Researcher",
+      company: "Dunne Lab, PGJCCR, QUB",
+      companylogo: require("./assets/images/qubLogo.png"),
+      date: "May 2024 – Sept 2024",
+      descBullets: [
+        "Utilized R packages for clinical and gene expression data analysis",
+        "Conducted bioinformatics analysis for colorectal cancer research",
+        "Collaborated with research group on big data analytics techniques"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research Analyst",
+      company: "Warsha Consultancy (with AUB)",
+      companylogo: require("./assets/images/warshaLogo.png"),
+      date: "Dec 2023 – Jul 2024",
+      descBullets: [
+        "Conducting data collection interviews with working women",
+        "Contributing insights and expertise in project meetings and workshops"
+      ]
+    },
+    {
+      role: "International Programs Manager",
+      company: "Shamsaha Women's Center",
+      companylogo: require("./assets/images/shamsahaLogo.png"),
+      date: "Aug 2022 - Sept 2023",
+      descBullets: [
+        "Led research projects and expanded program services across 6 countries",
+        "Managed digitization of NACP women's crisis advocacy training",
+        "Supervised team of 130+ volunteers and analyzed program impact"
+      ]
+    },
+    {
+      role: "Volunteers and Outreach Coordinator",
+      company: "Shamsaha Women's Center",
+      companylogo: require("./assets/images/shamsahaLogo.png"),
+      date: "Nov 2020 - Aug 2022",
+      descBullets: [
+        "Managed team of 110 Crisis Advocates and quantified initiative impact",
+        "Developed educational materials based on target audience analysis",
+        "Designed and delivered workshops on gender equality and workplace safety"
+      ]
+    },
+    {
+      role: "Work Placement",
+      company: "Ministry of Health, Bahrain",
+      companylogo: require("./assets/images/mohLogo.png"),
+      date: "Oct 2019 - Dec 2019",
+      descBullets: [
+        "Conducted biostatistics analysis for Infection Control Department",
+        "Delivered health promotion workshops and evaluated project effectiveness",
+        "Assessed 'Healthy Mall' and 'Healthy Cities' initiatives"
+      ]
     }
   ]
-};
+ };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
