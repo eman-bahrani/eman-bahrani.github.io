@@ -9,6 +9,7 @@ import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import emanTeal from "../../assets/images/emanTeal.png";
+import EmanExplaining from "../../assets/images/EmanExplaining.jpg";
 
 
 export default function Greeting() {
