@@ -78,6 +78,10 @@ softwareSkills: [
     fontAwesomeClassname: "fas fa-database"
   },
   {
+    skillName: "powerbi",
+    fontAwesomeClassname: "fas fa-chart-line"
+  },
+  {
     skillName: "git",
     fontAwesomeClassname: "fab fa-git-alt"
   },
@@ -93,14 +97,6 @@ softwareSkills: [
   {
     skillName: "research",
     fontAwesomeClassname: "fas fa-search"
-  },
-  {
-    skillName: "powerbi",
-    fontAwesomeClassname: "fas fa-chart-line"
-  },
-  {
-    skillName: "terminal",
-    fontAwesomeClassname: "fas fa-terminal"
   }
 ],
 display: true
