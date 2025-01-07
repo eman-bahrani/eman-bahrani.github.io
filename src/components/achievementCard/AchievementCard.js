@@ -28,7 +28,7 @@ export default function AchievementCard({cardInfo, isDark}) {
           {cardInfo.description}
         </p>
       </div>
-      <div className="certificate-card-footer">
+      {/* <div className="certificate-card-footer">
         {cardInfo.footer.map((v, i) => {
           return (
             <span
@@ -42,7 +42,7 @@ export default function AchievementCard({cardInfo, isDark}) {
             </span>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 }

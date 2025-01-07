@@ -280,62 +280,59 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications"),
+  title: emoji("Featured Achievements And Certifications"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Selected certifications and awards. View my LinkedIn profile for a complete list.",
 
-  achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
+    achievementsCards: [
+      {
+        title: "Nova Talent Member",
+        subtitle: "Selected to join the exclusive network of top 3% global talent driving innovation and leadership in their fields, March 2024",
+        image: require("./assets/images/novaLogo.png"),
+        imageAlt: "Nova Logo",
+      },
+      {
+        title: "QUB's Vice Chancellor's International Attainment Scholarship",
+        subtitle: "Awarded prestigious scholarship for postgraduate studies based on academic excellence in 2023",
+        image: require("./assets/images/qubLogo.png"),
+        imageAlt: "QUB Logo",
+        // footerLink removed as not needed
+      },
+      {
+        title: "Bioinformatics for Biologists",
+        subtitle: "Advanced training in analyzing genomics datasets from Wellcome Connecting Science, July 2024",
+        image: require("./assets/images/wellcomeLogo.png"),
+        imageAlt: "Wellcome Logo",
+      },
+      {
+        title: "Predictive Modelling Training",
+        subtitle: "Specialized training in healthcare data modeling and analysis from Gulf CDC, Nov 2024",
+        image: require("./assets/images/gulfcdcLogo.png"),
+        imageAlt: "Gulf CDC Logo",
+      },
+      // {
+      //   title: "McKinsey Forward Program",
+      //   subtitle: "Completed comprehensive business and leadership development program, Dec 2021",
+      //   image: require("./assets/images/mcKinseyLogo.png"),
+      //   imageAlt: "McKinsey Logo",
+      // },
+      {
+        title: "Global Shapers Community Leadership",
+        subtitle: "Appointed Impact Officer of Manama Hub (2021) and Health & Aid Committee Leader (2022-2023)",
+        image: require("./assets/images/MHLogo.png"),
+        imageAlt: "WEF Logo",
+      },
+      {
+        title: "Women's Digital Festival Moderator",
+        subtitle: "Led panel discussion on 'Building Resilient Healthcare Systems in a Changing World' at womenpower-summit.com, 2020",
+        image: require("./assets/images/wdfLogo.png"),
+        imageAlt: "WDF Logo",
+      },
+    ],
+    display: true
+   };
+   
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Blogs Section
 
