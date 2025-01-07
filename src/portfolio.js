@@ -50,75 +50,60 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DATA-DRIVEN PRECISION PUBLIC HEALTH SOLUTIONS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🧬 Leveraging computational tools and genomics for disease prevention"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("📊 Translating complex health data into actionable insights"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "🌍 Developing evidence-based public health programs and policies"
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+softwareSkills: [
+  {
+    skillName: "R",
+    fontAwesomeClassname: "fab fa-r-project"
+  },
+  {
+    skillName: "python", 
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "sql",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "git",
+    fontAwesomeClassname: "fab fa-git-alt"
+  },
+  // Second row - Analysis tools/skills
+  {
+    skillName: "statistics",
+    fontAwesomeClassname: "fas fa-chart-bar" 
+  },
+  {
+    skillName: "genomics",
+    fontAwesomeClassname: "fas fa-dna"
+  },
+  {
+    skillName: "research",
+    fontAwesomeClassname: "fas fa-search"
+  },
+  {
+    skillName: "powerbi",
+    fontAwesomeClassname: "fas fa-chart-line"
+  },
+  {
+    skillName: "terminal",
+    fontAwesomeClassname: "fas fa-terminal"
+  }
+],
+display: true
 };
 
 // Education Section
