@@ -403,11 +403,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Get in touch!"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Feel Free to Reach Out for Projects or Just a Friendly Hello",
+  // number: "+92-0000000000",
+  // email_address: "saadpasta70@gmail.com"
 };
 
 // Twitter Section
