@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Eman",
-  title: "Welcome! I'm Eman",
+  title: "I’m Eman AlBahrani",
   subTitle: emoji(
     "Connecting the dots between genomics and public health. Here's where data science meets disease prevention. Ready to make an impact? Let's chat!"
   ),
