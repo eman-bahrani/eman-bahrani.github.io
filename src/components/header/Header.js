@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -15,7 +15,7 @@ import {
 } from "../../portfolio";
 
 function Header() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -26,8 +26,16 @@ function Header() {
 
   // Define your blog items here. Ideally, this can be imported from a config or fetched dynamically.
   const blogItems = [
-    { id: "first-blog-post", title: "First Blog Post", link: "/blogs/first-blog-post" },
-    { id: "second-blog-post", title: "Second Blog Post", link: "/blogs/second-blog-post" },
+    {
+      id: "first-blog-post",
+      title: "First Blog Post",
+      link: "/blogs/first-blog-post"
+    },
+    {
+      id: "second-blog-post",
+      title: "Second Blog Post",
+      link: "/blogs/second-blog-post"
+    }
     // Add more blog items as needed
   ];
 
@@ -43,7 +51,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{ color: "white" }}
+          style={{color: "white"}}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
@@ -71,14 +79,21 @@ function Header() {
           {viewBlog && (
             <li className="dropdown">
               {/* Hidden checkbox for mobile toggle */}
-              <input type="checkbox" id="blog-dropdown" className="dropdown-checkbox" />
+              <input
+                type="checkbox"
+                id="blog-dropdown"
+                className="dropdown-checkbox"
+              />
               {/* Label acting as toggle button */}
               <label htmlFor="blog-dropdown" className="dropdown-label">
-                Blogs <i className="arrow"></i>
+                <a href="/blogs" id="blogs">
+                  Blogs
+                </a>
+                <i className="arrow"></i>
               </label>
               {/* Dropdown Menu */}
               <ul className="dropdown-menu">
-                {blogItems.map((blog) => (
+                {blogItems.map(blog => (
                   <li key={blog.id}>
                     <a href={blog.link}>{blog.title}</a>
                   </li>
