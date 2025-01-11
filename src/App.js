@@ -1,12 +1,20 @@
 import React from "react";
-import "./App.scss";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Main from "./containers/Main";
+import BlogPosts from "./containers/BlogPosts/BlogPosts";
+import BlogDetail from "./containers/BlogDetail/BlogDetail"; 
 
 function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/" component={Main} />
+          <Route exact path="/blogs" component={BlogPosts} />
+          <Route path="/blogs/:id" component={BlogDetail} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

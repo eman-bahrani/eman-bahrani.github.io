@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -15,7 +15,7 @@ import {
 } from "../../portfolio";
 
 function Header() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -23,6 +23,13 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
+
+  // Define your blog items here. Ideally, this can be imported from a config or fetched dynamically.
+  const blogItems = [
+    { id: "first-blog-post", title: "First Blog Post", link: "/blogs/first-blog-post" },
+    { id: "second-blog-post", title: "Second Blog Post", link: "/blogs/second-blog-post" },
+    // Add more blog items as needed
+  ];
 
   return (
     <Headroom>
@@ -36,7 +43,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
+          style={{ color: "white" }}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
@@ -62,8 +69,21 @@ function Header() {
             </li>
           )}
           {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
+            <li className="dropdown">
+              {/* Hidden checkbox for mobile toggle */}
+              <input type="checkbox" id="blog-dropdown" className="dropdown-checkbox" />
+              {/* Label acting as toggle button */}
+              <label htmlFor="blog-dropdown" className="dropdown-label">
+                Blogs <i className="arrow"></i>
+              </label>
+              {/* Dropdown Menu */}
+              <ul className="dropdown-menu">
+                {blogItems.map((blog) => (
+                  <li key={blog.id}>
+                    <a href={blog.link}>{blog.title}</a>
+                  </li>
+                ))}
+              </ul>
             </li>
           )}
           {viewTalks && (
@@ -81,7 +101,7 @@ function Header() {
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
+            <a href="#">
               <ToggleSwitch />
             </a>
           </li>
@@ -90,4 +110,5 @@ function Header() {
     </Headroom>
   );
 }
+
 export default Header;

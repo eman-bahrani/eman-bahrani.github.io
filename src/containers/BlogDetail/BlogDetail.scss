@@ -1,0 +1,18 @@
+@import "../../_globalColor";
+
+
+.blog-detail-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+
+  h1 {
+    margin-bottom: 1.5rem;
+    color: $subTitle;
+  }
+
+  p {
+    line-height: 1.6;
+    color: $textColorDark;
+  }
+}

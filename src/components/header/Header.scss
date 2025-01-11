@@ -31,7 +31,6 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  overflow: hidden;
 }
 
 .grey-color {
@@ -157,6 +156,165 @@
   top: 0;
 }
 
+/* Dropdown Menu Styles */
+
+.header .dropdown {
+  position: relative;
+}
+
+.header .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .arrow {
+  border: solid $textColor;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.header .dropdown:hover .dropdown-menu {
+  display: block;
+  z-index: 9999;
+}
+
+.header .dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: $lightBackground1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%;
+  left: 0;
+}
+
+.header .dropdown .dropdown-menu li {
+  width: 100%;
+}
+
+.header .dropdown .dropdown-menu li a {
+  padding: 12px 16px;
+}
+
+.header .dropdown:hover .dropdown-toggle .arrow {
+  transform: rotate(-135deg);
+}
+
+/* Dark Mode Styles for Dropdown */
+
+.dark-menu .dropdown .dropdown-menu {
+  background-color: $darkBackground;
+}
+
+.dark-menu .dropdown .dropdown-menu li a {
+  color: $textColorDark;
+}
+
+.dark-menu .dropdown .dropdown-menu li a:hover {
+  background-color: $buttonColor;
+}
+
+/* Arrow Icon Styling */
+
+/* Default right-pointing arrow */
+.header .arrow {
+  border: solid $textColor;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+/* Rotate the arrow when dropdown is open */
+.header .dropdown:hover .arrow {
+  transform: rotate(-135deg);
+}
+
+/* Dark Mode Arrow */
+.dark-menu .arrow {
+  border-color: $textColorDark;
+}
+
+/* Hide the checkbox for mobile dropdown toggle */
+.header .dropdown-checkbox {
+  display: none;
+}
+
+/* Style the label to look like a regular menu item */
+.header .dropdown-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  color: $textColor;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Rotate the arrow when checkbox is checked */
+.header .dropdown-checkbox:checked + .dropdown-label .arrow {
+  transform: rotate(-135deg);
+}
+
+/* Show the dropdown menu when checkbox is checked */
+.header .dropdown-checkbox:checked ~ .dropdown-menu {
+  display: block;
+}
+
+/* Ensure dropdown-menu is hidden by default */
+.header .dropdown-menu {
+  display: none;
+}
+
+/* Responsive Styles for Dropdown */
+@media (max-width: 768px) {
+
+  .header ul {
+    overflow: hidden;
+  }
+
+  .header .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    background-color: inherit;
+    padding-left: 20px;
+  }
+
+  .header .dropdown-menu li a {
+    padding: 10px 0;
+  }
+
+  .header .menu-btn:checked ~ .menu .dropdown-checkbox:checked ~ .dropdown-menu {
+    display: block;
+  }
+
+  .header .dropdown:hover .dropdown-menu {
+    display: none;
+  }
+
+  .header .dropdown-toggle {
+    width: 100%;
+  }
+
+  .header .arrow {
+    float: right;
+    transform: rotate(45deg);
+  }
+
+  /* Adjust the label to occupy full width */
+  .header .dropdown-label {
+    width: 100%;
+  }
+}
+
 /* 48em = 768px */
 
 @media (min-width: 48em) {
@@ -175,6 +333,7 @@
     display: none;
   }
 }
+
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
