@@ -13,9 +13,9 @@ const BlogList = () => {
       const data = [
         {
           id: 1,
-          title: "First Blog Post",
-          summary: "This is a summary of the first blog post.",
-          link: "/blogs/first-blog-post",
+          title: "From Genomes to Communities",
+          summary: "How is bioinformatics reshaping public health interventions for greater precision and impact? Dive into real-world applications, from predicting disease outbreaks to tailoring community health programs. Join us in exploring the future where data-driven decisions make healthcare more equitable and effective for all.",
+          link: "/blogs/genomes-to-communities",
         },
         {
           id: 2,
