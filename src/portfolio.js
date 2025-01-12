@@ -24,7 +24,7 @@ const greeting = {
   username: "Eman",
   title: "I’m Eman AlBahrani",
   subTitle: emoji(
-    "Connecting the dots between genomics and public health. Here's where data science meets disease prevention. Ready to make an impact? Let's chat!"
+    "Connecting the dots between genomics and public health. Here's where data science meets disease prevention. Ready to make an impact?"
   ),
   resumeLink:
     "https://drive.google.com/file/d/15_zuGa-lPBUDO5dWVathj8ZOqvsymaBl/view?usp=drive_link", // Set to empty to hide the button
