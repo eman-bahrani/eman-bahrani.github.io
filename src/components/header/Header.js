@@ -32,9 +32,9 @@ function Header() {
       link: "/blogs/genomes-to-communities"
     },
     {
-      id: "second-blog-post",
-      title: "Second Blog Post",
-      link: "/blogs/second-blog-post"
+      id: "ethical-challenges-pph",
+      title: "Ethical Challenges in PPH",
+      link: "/blogs/ethical-challenges-pph"
     }
     // Add more blog items as needed
   ];

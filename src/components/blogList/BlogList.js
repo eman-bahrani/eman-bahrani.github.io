@@ -19,9 +19,9 @@ const BlogList = () => {
         },
         {
           id: 2,
-          title: "Second Blog Post",
-          summary: "This is a summary of the second blog post.",
-          link: "/blogs/second-blog-post",
+          title: "Ethical Challenges in PPH",
+          summary: "Ethical challenges arise as precision public health combines genomics and big data to transform healthcare. From data privacy concerns around genetic information to questions of bias, the field faces complex moral dilemmas. Can we balance innovation with equity in this emerging healthcare frontier?",
+          link: "/blogs/ethical-challenges-pph",
         },
         // Add more blog posts as needed
       ];
