@@ -339,7 +339,7 @@ const achievementSection = {
 
 const mappedBlogs = blogPosts.map((post) => ({
   // Construct the URL based on your routing setup. Adjust the path as needed.
-  url: `/blogs/${post.id}`,
+  url: `/blogs/${post.linkName}`,
   title: post.title,
   // Optionally, extract a summary from content or use it directly
   description: post.summary.length > 150 ? post.summary.substring(0, 147) + "..." : post.summary
