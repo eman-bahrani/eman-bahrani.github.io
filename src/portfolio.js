@@ -348,7 +348,7 @@ const mappedBlogs = blogPosts.map((post) => ({
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Exploring the Intersection of Bioinformatics and Public Health",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: mappedBlogs,
   display: true // Set false to hide this section, defaults to true
