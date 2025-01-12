@@ -4,6 +4,8 @@ import BlogCard from "../../components/blogCard/BlogCard";
 import {blogSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import blogPosts from "../BlogPosts/blogs.json";
+
 export default function Blogs() {
   const {isDark} = useContext(StyleContext);
   const [mediumBlogs, setMediumBlogs] = useState([]);
@@ -24,7 +26,7 @@ export default function Blogs() {
   useEffect(() => {
     if (blogSection.displayMediumBlogs === "true") {
       const getProfileData = () => {
-        fetch("/blogs.json")
+        fetch(blogPosts)
           .then(result => {
             if (result.ok) {
               return result.json();
@@ -71,7 +73,6 @@ export default function Blogs() {
                       isDark={isDark}
                       blog={{
                         url: blog.url,
-                        image: blog.image,
                         title: blog.title,
                         description: blog.description
                       }}
@@ -84,9 +85,9 @@ export default function Blogs() {
                       key={i}
                       isDark={isDark}
                       blog={{
-                        url: blog.link,
+                        url: blog.url,
                         title: blog.title,
-                        description: extractTextContent(blog.content)
+                        description: blog.description
                       }}
                     />
                   );
