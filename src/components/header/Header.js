@@ -27,9 +27,9 @@ function Header() {
   // Define your blog items here. Ideally, this can be imported from a config or fetched dynamically.
   const blogItems = [
     {
-      id: "first-blog-post",
-      title: "First Blog Post",
-      link: "/blogs/first-blog-post"
+      id: "genomes-to-communities",
+      title: "From Genomes to Communities",
+      link: "/blogs/genomes-to-communities"
     },
     {
       id: "second-blog-post",
