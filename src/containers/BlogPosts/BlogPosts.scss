@@ -1,0 +1,20 @@
+@import "../../_globalColor";
+
+.dark-mode {
+  background-color: $darkBackground;
+  color: white;
+  transition: 0.1s;
+}
+
+.blog-posts-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: $titleColor;
+  }
+
+}
