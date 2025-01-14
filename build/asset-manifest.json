@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1db7377b.css",
+    "main.js": "/static/js/main.c1f408af.js",
+    "static/css/64.01b01f4e.chunk.css": "/static/css/64.01b01f4e.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/static/js/769.bda0d7b7.chunk.js",
+    "static/media/emanTeal.png": "/static/media/emanTeal.064ffb7a1e9d823c6a91.png",
+    "static/media/QULogo.png": "/static/media/QULogo.ca3a53ffa8b539acfd1a.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/resume.pdf": "/static/media/resume.e3847787907796878265.pdf",
+    "static/media/MHLogo.png": "/static/media/MHLogo.de340c596f4d7e1ec958.png",
+    "static/media/wdfLogo.png": "/static/media/wdfLogo.6be7fc184588b053eb12.png",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/EmanExplaining.jpg": "/static/media/EmanExplaining.354d97f3a33c18a26b33.jpg",
+    "static/media/wellcomeLogo.png": "/static/media/wellcomeLogo.b62a78e7721b214a4bfc.png",
+    "static/media/mohLogo.png": "/static/media/mohLogo.bfd670c98ae51c7356cf.png",
+    "static/media/novaLogo.png": "/static/media/novaLogo.105193bce695354a4a0c.png",
+    "static/media/gulfcdcLogo.png": "/static/media/gulfcdcLogo.2dc6080e945910367654.png",
+    "static/media/shamsahaLogo.png": "/static/media/shamsahaLogo.e992edbad8427fccd8e8.png",
+    "static/media/queensLogo.png": "/static/media/queensLogo.042dc77bde301d5f9a70.png",
+    "static/media/qubLogo.png": "/static/media/qubLogo.3b99008e06490304dd42.png",
+    "static/media/warshaLogo.png": "/static/media/warshaLogo.2294b76c2afe672a204e.png",
+    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
+    "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.1db7377b.css.map": "/static/css/main.1db7377b.css.map",
+    "main.c1f408af.js.map": "/static/js/main.c1f408af.js.map",
+    "64.01b01f4e.chunk.css.map": "/static/css/64.01b01f4e.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/static/js/769.bda0d7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1db7377b.css",
+    "static/js/main.c1f408af.js"
+  ]
+}
