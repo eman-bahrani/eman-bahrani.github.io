@@ -13,6 +13,7 @@ import {
   achievementSection,
   resumeSection
 } from "../../portfolio";
+import logo from "../../assets/images/emanLogoSquare.png"
 
 function Header() {
   const {isDark} = useContext(StyleContext);
@@ -44,8 +45,9 @@ function Header() {
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
           {/* <span className="grey-color"> &lt;</span> */}
-          <span className="logo-name">{greeting.username}</span>
+          {/* <span className="logo-name">{greeting.username}</span> */}
           {/* <span className="grey-color">/&gt;</span> */}
+          {<img src={logo} alt="logo"></img>}
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -101,11 +103,11 @@ function Header() {
               </ul>
             </li>
           )}
-          {viewTalks && (
+          {/* {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
             </li>
-          )}
+          )} */}
           {/* {viewResume && (
             <li>
               <a href="#resume">Resume</a>
