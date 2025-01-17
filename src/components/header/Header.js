@@ -13,7 +13,7 @@ import {
   achievementSection,
   resumeSection
 } from "../../portfolio";
-import logo from "../../assets/images/emanLogoSquare.png"
+import logo from "../../assets/images/emanLogo.png"
 
 function Header() {
   const {isDark} = useContext(StyleContext);
