@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.242376ef.css",
-    "main.js": "/static/js/main.7cace547.js",
+    "main.js": "/static/js/main.1225ca21.js",
     "static/css/64.01b01f4e.chunk.css": "/static/css/64.01b01f4e.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -19,16 +19,16 @@
     "static/media/novaLogo.png": "/static/media/novaLogo.105193bce695354a4a0c.png",
     "static/media/gulfcdcLogo.png": "/static/media/gulfcdcLogo.2dc6080e945910367654.png",
     "static/media/shamsahaLogo.png": "/static/media/shamsahaLogo.e992edbad8427fccd8e8.png",
-    "static/media/emanLogo.png": "/static/media/emanLogo.0914b0b404b9111f10fb.png",
     "static/media/queensLogo.png": "/static/media/queensLogo.042dc77bde301d5f9a70.png",
     "static/media/qubLogo.png": "/static/media/qubLogo.3b99008e06490304dd42.png",
+    "static/media/emanLogo.png": "/static/media/emanLogo.c11413f917592a420ab8.png",
     "static/media/warshaLogo.png": "/static/media/warshaLogo.2294b76c2afe672a204e.png",
     "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.242376ef.css.map": "/static/css/main.242376ef.css.map",
-    "main.7cace547.js.map": "/static/js/main.7cace547.js.map",
+    "main.1225ca21.js.map": "/static/js/main.1225ca21.js.map",
     "64.01b01f4e.chunk.css.map": "/static/css/64.01b01f4e.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.242376ef.css",
-    "static/js/main.7cace547.js"
+    "static/js/main.1225ca21.js"
   ]
 }
