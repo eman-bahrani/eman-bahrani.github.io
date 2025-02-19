@@ -24,6 +24,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
+    "prebuild": "echo '{ "routes": [ { "src": "/(.*)", "dest": "/index.html" } ] }' > public/static.json",
     "build": "node fetch.js && react-scripts build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
