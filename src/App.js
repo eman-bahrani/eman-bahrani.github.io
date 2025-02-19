@@ -6,11 +6,11 @@ import BlogDetail from "./containers/BlogDetail/BlogDetail";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/eman-bahrani">
       <div className="App">
         <Switch>
           <Route exact path="/" component={Main} />
-          <Route path="/blogs" component={BlogPosts} />
+          <Route exact path="/blogs" component={BlogPosts} />
           <Route path="/blogs/:linkName" component={BlogDetail} />
         </Switch>
       </div>
