@@ -1,5 +1,5 @@
 {
-  "homepage": "https://eman-bahrani.github.io",
+  "homepage": "https://eman-bahrani.onrender.com",
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -26,6 +26,7 @@
     "start": "node fetch.js && react-scripts start",
     "prebuild": "echo '{ \"routes\": [ { \"src\": \"/(.*)\", \"dest\": \"/index.html\" } ] }' > public/static.json",
     "build": "node fetch.js && react-scripts build",
+    "predeploy": "npm run build && cp build/index.html build/404.html",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
