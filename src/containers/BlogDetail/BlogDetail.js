@@ -46,14 +46,18 @@ const BlogDetail = () => {
     return <div>Loading...</div>;
   }
 
+  const processedContent = isDark 
+  ? blog.content.replace(/<p(?!\s*class=)/g, '<p class="dark-mode"') 
+  : blog.content;
+
   return (
     <div className={isDark ? "dark-mode" : ""}>
       <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
         <Header />
         <main className="blog-detail-container">
-          <h1>{blog.title}</h1>
+          <h1 className={isDark ? "dark-mode" : null} >{blog.title}</h1>
           {/* Since your content might contain HTML, use dangerouslySetInnerHTML */}
-          <div dangerouslySetInnerHTML={{ __html: blog.content }}></div>
+          <div dangerouslySetInnerHTML={{ __html: processedContent }}></div>
         </main>
         <Footer />
         <ScrollToTopButton />
