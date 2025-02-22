@@ -19,8 +19,8 @@ const BlogPosts = () => {
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
         <Header />
-        <main className="blog-posts-container">
-          <h1>My Blog</h1>
+        <main className={"blog-posts-container"}>
+          <h1 className={isDark ? "dark-mode" : null}>My Blog</h1>
           <BlogList /> {/* Make sure this component is created */}
         </main>
         <Footer />
